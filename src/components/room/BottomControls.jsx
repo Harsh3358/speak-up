@@ -6,7 +6,7 @@ const BottomControls = () => {
       <div className="w-full max-w-4xl px-6 pb-6 pt-10 glass-blur border-t border-white/5 shadow-[0_-20px_40px_rgba(0,0,0,0.5)]">
         <div className="flex items-center justify-between gap-6 mb-6">
           <div className="flex flex-col items-center gap-1">
-            <button className="size-14 bg-slate-800 rounded-2xl flex items-center justify-center hover:bg-slate-700 transition-all active:scale-95 group border border-white/5">
+            <button className="w-14 h-14 bg-slate-800 rounded-2xl flex items-center justify-center hover:bg-slate-700 transition-all active:scale-95 group border border-white/5">
               <span className="material-symbols-outlined text-white text-[24px]">front_hand</span>
             </button>
             <span className="text-[10px] font-bold text-text-muted uppercase tracking-widest">Raise</span>
@@ -19,7 +19,7 @@ const BottomControls = () => {
           </button>
 
           <div className="flex flex-col items-center gap-1">
-            <button className="size-14 bg-primary/10 rounded-2xl flex items-center justify-center border border-primary/20 hover:bg-primary/20 transition-all">
+            <button className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center border border-primary/20 hover:bg-primary/20 transition-all">
               <span className="material-symbols-outlined text-primary text-[24px] filled">closed_caption</span>
             </button>
             <span className="text-[10px] font-bold text-primary uppercase tracking-widest">Live</span>

@@ -17,7 +17,7 @@ const Header = () => {
       <div className="flex items-center gap-6">
         <button className="relative p-2 text-slate-400 hover:text-white">
           <span className="material-symbols-outlined">notifications</span>
-          <span className="absolute top-2 right-2 size-2 bg-rose-500 rounded-full" />
+          <span className="absolute top-2 right-2 w-2 h-2 bg-rose-500 rounded-full" />
         </button>
 
         <button className="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-xl font-bold text-sm shadow-lg shadow-primary/20 flex items-center gap-2">

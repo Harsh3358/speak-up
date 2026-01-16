@@ -12,7 +12,7 @@ const ChatSidebar = () => {
 
         <div className="flex-1 space-y-6 overflow-y-auto custom-scrollbar pr-2">
           <div className="flex gap-4">
-            <div className="size-10 rounded-full bg-cover bg-center shrink-0 border border-white/10" style={{ backgroundImage: `url("https://lh3.googleusercontent.com/aida-public/AB6AXuAVz35bQLDrNGMNBY4ZqSWi69-5amEj4wRp_-UWm2-KaAXJ_t3NsncGRk_3CiLafXPfT3JcMXvehzVSfEqAIJsfzP6bWlauCvNMpx_ilUFO_2uQDN-LzVBdF_sS3Slru-oSe4t7xhdts7cOFiqhv9bcDE76AuSDydiogU8q-9OcKtzEOhYYO0a9zX4lTgvN72IBzzceVGw8dtKRiP-YF_jeio0TgtwItOlU8nT81qjas2wcL-XHqttEn7bifij6pBslfjbl1AytCLxX")` }} />
+            <div className="w-10 h-10 rounded-full bg-cover bg-center shrink-0 border border-white/10" style={{ backgroundImage: `url("https://lh3.googleusercontent.com/aida-public/AB6AXuAVz35bQLDrNGMNBY4ZqSWi69-5amEj4wRp_-UWm2-KaAXJ_t3NsncGRk_3CiLafXPfT3JcMXvehzVSfEqAIJsfzP6bWlauCvNMpx_ilUFO_2uQDN-LzVBdF_sS3Slru-oSe4t7xhdts7cOFiqhv9bcDE76AuSDydiogU8q-9OcKtzEOhYYO0a9zX4lTgvN72IBzzceVGw8dtKRiP-YF_jeio0TgtwItOlU8nT81qjas2wcL-XHqttEn7bifij6pBslfjbl1AytCLxX")` }} />
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-1">
                 <span className="font-bold text-sm">Jordan</span>
@@ -28,7 +28,7 @@ const ChatSidebar = () => {
           </div>
 
           <div className="flex gap-4">
-            <div className="size-10 rounded-full bg-cover bg-center shrink-0 border border-white/10" style={{ backgroundImage: `url("https://lh3.googleusercontent.com/aida-public/AB6AXuDC_v6-sXgyF5Pv66vX2qt0tGWcOhtjbF7Dnif9QLhadDT1PWmxwiHSjm0A-Z_S8LcAiLe_Kta7z2ldxgjQByDzxvuq-iPdWGMUvy3JdbrV3CcHdOykiCFggXkcnf5aN2E3EWdzCr3i7Ex8SBiOoRvNjsks0C3c-b2ycIFJY9HyWGHRNuyump6ivmyT-8wWH7ojlqODxY1sKR-uK1TnhRrQw2SfCJoszgu-vhujgxX0fckJ65EZO6lo738juu20m1H9WVAXh3qCX8SD")` }} />
+            <div className="w-10 h-10 rounded-full bg-cover bg-center shrink-0 border border-white/10" style={{ backgroundImage: `url("https://lh3.googleusercontent.com/aida-public/AB6AXuDC_v6-sXgyF5Pv66vX2qt0tGWcOhtjbF7Dnif9QLhadDT1PWmxwiHSjm0A-Z_S8LcAiLe_Kta7z2ldxgjQByDzxvuq-iPdWGMUvy3JdbrV3CcHdOykiCFggXkcnf5aN2E3EWdzCr3i7Ex8SBiOoRvNjsks0C3c-b2ycIFJY9HyWGHRNuyump6ivmyT-8wWH7ojlqODxY1sKR-uK1TnhRrQw2SfCJoszgu-vhujgxX0fckJ65EZO6lo738juu20m1H9WVAXh3qCX8SD")` }} />
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-1">
                 <span className="font-bold text-sm">Elena</span>
