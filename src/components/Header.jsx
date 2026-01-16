@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="h-20 flex items-center justify-between px-10 bg-bg-main/80 backdrop-blur-xl z-10">
+    <header className="h-20 flex items-center justify-between px-10 bg-bgMain/80 backdrop-blur-xl z-10">
       <div className="relative max-w-2xl w-full">
         <span className="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
           search

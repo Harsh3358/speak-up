@@ -6,7 +6,7 @@ const RoomHeader = ({ title, roomTag, listeners }) => {
 
   
   return (
-    <header className="flex items-center justify-between px-6 py-4 border-b border-border-dark bg-bg-dark z-20">
+    <header className="flex items-center justify-between px-6 py-4 border-b border-border-dark bg-bgDark z-20">
       <div className="flex items-center gap-4">
         <button className="flex items-center justify-center text-text-muted hover:text-white"
           onClick={() => navigate(-1)}>
@@ -30,7 +30,7 @@ const RoomHeader = ({ title, roomTag, listeners }) => {
           Leave
         </button>
         <div
-          className="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border border-border-dark"
+          className="bg-center bg-noRepeat aspect-square bg-cover rounded-full size-10 border border-border-dark"
           style={{
             backgroundImage:
               "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAC64KO6fln7vbuw8CBAMrRTmDdFni4aCImIaAgXkLaUfs__FyGTEj8DnHh-hS5SW7vZcKgQmwAkK6YRZa-_qV5Yn87u2Oa3JHaJy7S-bX6rJPqqv5Ts4aro-8J85UnvQFvTzQ8RGrlEzdfDlxiGVNvQXzayN23O9DpnPCEBE4cuiMhnmHjFn2UYO1gzTPZES4Ok_k3cp4S6s8IwzS5bSITuUnVuWQtCUjvnFIuydpapEjAKf8qvXkbimeO0E6ZJPq_Q5HxQVH3mzny')",

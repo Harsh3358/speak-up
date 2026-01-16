@@ -3,7 +3,7 @@ import React from "react";
 /* small static chat stream replicating original HTML */
 const ChatSidebar = () => {
   return (
-    <aside className="w-96 border-l border-border-dark flex flex-col bg-bg-dark hidden xl:flex">
+    <aside className="w-96 border-l border-border-dark flex flex-col bg-bgDark hidden xl:flex">
       <div className="p-6 flex-1 flex flex-col">
         <div className="flex items-center justify-between mb-6">
           <h3 className="text-sm font-bold uppercase tracking-widest text-text-muted">Chat Stream</h3>

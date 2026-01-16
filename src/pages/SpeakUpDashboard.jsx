@@ -1,13 +1,12 @@
+// src/pages/SpeakUpDashboard.jsx
 import React from "react";
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
 import RoomCard from "../components/RoomCard";
 
-
 const SpeakUpDashboard = () => {
-
   return (
-    <div className="dark bg-bg-main text-white min-h-screen">
+    <div className="dark min-h-screen bg-bgMain text-white">
       <div className="flex h-screen overflow-hidden">
         <Sidebar />
 
@@ -15,15 +14,14 @@ const SpeakUpDashboard = () => {
           <Header />
 
           <div className="flex-1 overflow-y-auto p-10 custom-scrollbar">
-            <section className="gradient-banner rounded-[2rem] p-10 shadow-2xl shadow-primary/20 mb-10">
-              <h2 className="text-4xl font-extrabold mb-3">
-                Instant Connections
-              </h2>
-              <p className="text-white/80 text-lg mb-8 max-w-lg">
-                Get matched with a partner based on your common interests
-                instantly and start talking.
+            <section className="rounded-3xl p-10 bg-gradient-to-br from-indigo-500 to-purple-600 shadow-2xl mb-10">
+              <h2 className="text-4xl font-extrabold mb-3">Instant Connections</h2>
+
+              <p className="text-white/80 text-lg max-w-xl mb-8">
+                Get matched with a partner based on your common interests instantly and start talking.
               </p>
-              <button className="bg-white text-primary px-8 py-3.5 rounded-2xl font-bold flex items-center gap-3">
+
+              <button className="bg-white text-bgMain px-8 py-3 rounded-2xl font-bold flex items-center gap-2">
                 <span className="material-symbols-outlined">bolt</span>
                 Quick Match
               </button>

@@ -4,7 +4,7 @@ import ActiveRoom from "./pages/ActiveRoom";
 
 function App() {
   return (
-    <div className="dark min-h-screen bg-bg-main text-white font-sans overflow-hidden">
+    <div className="dark min-h-screen bg-bgMain text-white font-sans overflow-hidden">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<SpeakUpDashboard />} />

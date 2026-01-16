@@ -1,13 +1,12 @@
+// src/components/Sidebar.jsx
 import React from "react";
 
 const Sidebar = () => {
   return (
-    <aside className="w-72 flex-shrink-0 bg-bg-sidebar flex flex-col border-r border-slate-800/50">
+    <aside className="w-72 flex-shrink-0 bg-bgSidebar flex flex-col border-r border-borderSoft">
       <div className="p-8 flex items-center gap-3">
-        <div className="size-10 gradient-banner rounded-xl flex items-center justify-center shadow-lg shadow-primary/20">
-          <span className="material-symbols-outlined text-white text-2xl">
-            record_voice_over
-          </span>
+        <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
+          <span className="material-symbols-outlined text-white text-2xl">record_voice_over</span>
         </div>
         <h1 className="text-2xl font-extrabold tracking-tight">SpeakUp</h1>
       </div>
@@ -43,16 +42,12 @@ const Sidebar = () => {
           </p>
 
           <a className="flex items-center gap-4 px-4 py-3 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800/50 transition-all">
-            <div className="size-8 rounded-lg bg-emerald-500/20 text-emerald-500 flex items-center justify-center text-xs font-bold">
-              EL
-            </div>
+            <div className="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-500 flex items-center justify-center text-xs font-bold">EL</div>
             English Lab
           </a>
 
           <a className="flex items-center gap-4 px-4 py-3 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800/50 transition-all">
-            <div className="size-8 rounded-lg bg-orange-500/20 text-orange-500 flex items-center justify-center text-xs font-bold">
-              CC
-            </div>
+            <div className="w-8 h-8 rounded-lg bg-orange-500/20 text-orange-500 flex items-center justify-center text-xs font-bold">CC</div>
             Code & Coffee
           </a>
         </div>
